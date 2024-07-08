@@ -1,0 +1,40 @@
+#books{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+#books img{
+    width: 200px;
+}
+#bookscontainer{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+#bookscontainer .favorite-btn{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    color: red;
+}
+#bookscontainer button:hover{
+    background-color: red;
+    color: white;
+}
+#bookscontainer .delete-btn{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    color: red;
+}

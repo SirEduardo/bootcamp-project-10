@@ -1,0 +1,32 @@
+  
+#favs{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+#favs img{
+    width: 200px;
+}
+#bookscontainer{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.remove-btn{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    border: none;
+    background-color: white;
+    color: red;
+}
+.remove-btn:hover{
+    background-color: red;
+    color: white;
+}

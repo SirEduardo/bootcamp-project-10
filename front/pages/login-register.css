@@ -1,0 +1,29 @@
+
+#login{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+form input{
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+form button{
+    cursor: pointer;
+    width: 10%;
+    height: 30px;
+}
+
+p{
+    color: red;
+}
